@@ -26,7 +26,7 @@ int main()
     float a_aprox = roundoff(a) , b_aprox = roundoff(b);
     
     x=equation(c) ; 
-    y=roundoff(x);
+    y=roundoff(c);
     
     while(a_aprox!=y && b_aprox!=y)
     {
